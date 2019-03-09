@@ -15,8 +15,7 @@ public class Main {
             System.out.print(String.format("%3d|", y));
             IntStream.rangeClosed(1, range).forEach(x -> System.out.print(String.format("%4d|", y * x)));
             System.out.println("");
-        }
-        );
+        });
 
     }
 }
